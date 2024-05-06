@@ -3,7 +3,7 @@ Contributors: isabel104
 Requires at least: 4.7
 Tested up to: 5.0-alpha-43320
 Requires PHP: 5.4
-Stable tag: 1.2.2
+Stable tag: 1.2.3
 License: GNU GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,7 +17,7 @@ The original ZodiacPress plugin lets your visitors get birth reports on your sit
 
 ### Privacy Policy and EU General Data Protection Regulation (GDPR) Information
 
-ZP Sell Reports collects personal information on the birth report order form. This information includes date of birth, time of birth, and place of birth. ZP Sell Reports stores this information with the customer's order in your WooCommerce store. The information is then used to create the astrology report for the customer. 
+ZP Sell Reports collects personal information on the birth report order form. This information includes date of birth, time of birth, and place of birth. ZP Sell Reports stores this information with the customer's order in your WooCommerce store. The information is then used to create the astrology report for the customer.
 
 To help you comply with the EU GDPR, the plugin includes a tool that lets you erase the sensitive birth data in one click. You can erase the birth data for all orders at once, or for one specified order.
 
@@ -57,6 +57,10 @@ If you encounter problems with this plugin, first check to make sure that your s
 
 == Changelog ==
 
+= 1.2.3 =
+
+* validate form before add to cart.
+
 = 1.2.2 =
 
 * Fix - Form was not allowing time offset of 0, for example, London timezone.
@@ -71,7 +75,7 @@ If you encounter problems with this plugin, first check to make sure that your s
 * New - Added compatibility with the new atlas database in ZodiacPress 1.8.
 * New - Added support for selling just a chartwheel image without a report.
 
-= 1.1.2 = 
+= 1.1.2 =
 
 * Fix - Enable license for easy updates.
 * Tweak - On the form, update offset when hour/minute is changed. Previously, the offset was only updated if the day/month/year was changed.

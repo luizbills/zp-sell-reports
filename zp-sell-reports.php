@@ -3,7 +3,7 @@
  * Plugin Name: ZodiacPress Sell Reports
  * Plugin URI: https://cosmicplugins.com/downloads/zodiacpress-woocommerce/
  * Description: Sell astrology birth reports with WooCommerce.
- * Version: 1.2.2.1
+ * Version: 1.2.3
  * Author: Isabel Castillo
  * Author URI: https://isabelcastillo.com/
  * Text Domain: zp-sell-reports
