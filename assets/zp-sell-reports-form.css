@@ -1,0 +1,28 @@
+.zp-birthdate legend,
+.zp-birthplace label,
+.zp-birthtime legend,
+.zp-name-field label {
+  min-width: auto;
+}
+.zp-form #day,
+.zp-form #hour,
+.zp-form #month {
+  margin-right: 1px;
+}
+#zp-birthreport-form .zp-input-text,
+#zp-birthreport-form select {
+  padding-right: 4px;
+}
+#zp-ajax-birth-data legend {
+  float: none;
+  margin: 5px 0 0;
+}
+#zp-birthreport-form .zp-form-label {
+  float: none;
+}
+#zp-birthreport-form .zp-input-text-wrap {
+  padding-left: 0;
+}
+.ui-state-error {
+  margin-bottom: 1em;
+}

@@ -1,0 +1,180 @@
+# Copyright (C) 2018 ZodiacPress Sell Reports
+# This file is distributed under the same license as the ZodiacPress Sell Reports package.
+msgid ""
+msgstr ""
+"Project-Id-Version: ZodiacPress Sell Reports 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zp-sell-reports\n"
+"POT-Creation-Date: 2018-05-25 22:23:46+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/admin-settings.php:8
+msgid "Free Preview"
+msgstr ""
+
+#: includes/admin-settings.php:19
+msgid "Length of Preview"
+msgstr ""
+
+#: includes/admin-settings.php:20
+msgid ""
+"How many characters would you like to show in the preview for each "
+"interpretation? Default is 60."
+msgstr ""
+
+#: includes/admin-settings.php:27
+msgid "Buy Now Text"
+msgstr ""
+
+#: includes/admin-settings.php:28
+msgid "This is the text for the link to buy the full report."
+msgstr ""
+
+#: includes/admin-settings.php:30
+msgid "Buy the full report"
+msgstr ""
+
+#: includes/admin-settings.php:68
+msgid ""
+"This sample language includes the basics around what personal data your "
+"store may collect when a customer purchases a ZodiacPress astrology report "
+"in your WooCommerce store. You can use it as suggested text for your privacy "
+"policy, however, we recommend consulting with a lawyer when deciding what "
+"information to disclose on your privacy policy."
+msgstr ""
+
+#: includes/admin-settings.php:71
+msgid "What we collect and store"
+msgstr ""
+
+#: includes/admin-settings.php:73
+msgid "Suggested text:"
+msgstr ""
+
+#: includes/admin-settings.php:75
+msgid ""
+"We collect personal information on the birth report order form. This "
+"information includes date of birth, time of birth, and place of birth "
+"(collectively, the \"Birth Data\"). We store the Birth Data with your order. "
+"The Birth Data is then used to create the astrology report to fullfill your "
+"order."
+msgstr ""
+
+#: includes/admin-tools.php:80
+msgid "Erase Birth Data For WooCommerce Orders"
+msgstr ""
+
+#: includes/admin-tools.php:83
+msgid ""
+"Use these tools to <strong>permanently erase</strong> all birth data from "
+"existing WooCommerce orders, including date of birth, time of birth, and "
+"place of birth. This does not erase the order itself, only the sensitive "
+"birth data. Be aware that erasing this data means that the customers for "
+"these orders will not be able to get a copy of their previous astrology "
+"reports from their account area. Erasing this data does not affect future "
+"report orders. Future reports will still be visible immediately when a "
+"customer pays. Future report orders will continue to have their birth data "
+"saved, and those reports will be available to customers when logged in to "
+"their account area."
+msgstr ""
+
+#: includes/admin-tools.php:86
+msgid "All Orders"
+msgstr ""
+
+#: includes/admin-tools.php:91
+msgid "Delete birth data from all report orders"
+msgstr ""
+
+#: includes/admin-tools.php:94
+msgid "A Single Order"
+msgstr ""
+
+#: includes/admin-tools.php:96
+msgid ""
+"To delete birth data from one single order, enter the order number, below, "
+"and click \"Delete birth data.\""
+msgstr ""
+
+#: includes/admin-tools.php:103
+msgid "Delete birth data"
+msgstr ""
+
+#: includes/admin-tools.php:118
+msgid "order #%s"
+msgstr ""
+
+#: includes/admin-tools.php:120
+msgid "all paid orders"
+msgstr ""
+
+#: includes/admin-tools.php:122
+msgid "You forgot to enter an order number."
+msgstr ""
+
+#: includes/admin-tools.php:128
+msgid "Birth data for %s was successfully erased."
+msgstr ""
+
+#: includes/ajax-handlers.php:30
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/class-zpsr-preview-report.php:197
+msgid "Introduction"
+msgstr ""
+
+#: includes/scripts.php:131
+msgid "Go back"
+msgstr ""
+
+#: includes/wc-cart.php:57 includes/wc-checkout.php:17
+msgid "For:"
+msgstr ""
+
+#: includes/wc-cart.php:57 includes/wc-checkout.php:17
+msgid "Birth year:"
+msgstr ""
+
+#: includes/wc-cart.php:70
+msgid ""
+"Sorry, please try again. The form you entered for your report order was not "
+"saved."
+msgstr ""
+
+#: includes/wc-checkout.php:41 includes/wc-completed-orders.php:74
+msgid "Name"
+msgstr ""
+
+#: includes/wc-checkout.php:42 includes/wc-completed-orders.php:61
+#: includes/wc-completed-orders.php:73
+msgid "Birth year"
+msgstr ""
+
+#: includes/wc-completed-orders.php:51
+msgid "View Your Report"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "ZodiacPress Sell Reports"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://cosmicplugins.com/downloads/zodiacpress-woocommerce/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Sell astrology birth reports with WooCommerce."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Isabel Castillo"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://isabelcastillo.com/"
+msgstr ""
