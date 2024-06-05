@@ -3,7 +3,7 @@ Contributors: isabel104
 Requires at least: 4.7
 Tested up to: 5.0-alpha-43320
 Requires PHP: 5.4
-Stable tag: 1.2.3
+Stable tag: 1.2.4
 License: GNU GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,6 +56,11 @@ If you encounter problems with this plugin, first check to make sure that your s
 *	In addition, make sure you meet the requirements for the core ZodiacPress plugin.
 
 == Changelog ==
+
+= 1.2.4 =
+
+* Fix data sent via ajax to don't remove accents
+* Fix button in order-received page
 
 = 1.2.3 =
 

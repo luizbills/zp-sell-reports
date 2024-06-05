@@ -72,7 +72,7 @@ function zpsr_scripts() {
 	* This fetches the report when View Report link is clicked in customer's account area,
 	* and hides Add to cart buttons for reports on shop and category pages. */
 
-	wp_add_inline_script( 'woocommerce', '( function( $ ) {
+	wp_add_inline_script( 'woocommerce', 'jQuery( function( $ ) {
 		// Get the data from each report link in this order
 
 		$( ".zpsr-fetch-report" ).each( function( i, obj ) {
@@ -93,6 +93,7 @@ function zpsr_scripts() {
 						// Do Ajax to fetch ZP report when link is clicked
 
 						$( this ).click( function() {
+
 							$.ajax( {
 								url: "' . admin_url( 'admin-ajax.php' ) . '",
 								type: "POST",
@@ -114,7 +115,7 @@ function zpsr_scripts() {
 										// if neither null, blank, nor false
 
 										if ( $.trim( reportData.report ) && "false" != $.trim(reportData.report ) ) {
-												
+
 											$( ".ui-state-error" ).hide();
 
 											// Remove WC stuff
@@ -153,7 +154,7 @@ function zpsr_scripts() {
 													$( ".woocommerce-order-details" ).append( reportData.image );
 												break;
 											}
-											
+
 											// Scroll to top of report
 
 											var distance = $( ".woocommerce-order-details" ).offset().top - 150;
@@ -161,7 +162,7 @@ function zpsr_scripts() {
 												scrollTop: distance
 											}, "slow" );
 										}
-								
+
 									}
 								}
 							} );
@@ -197,7 +198,7 @@ function zpsr_scripts() {
 
 		} );
 
-	} )( jQuery );' );	
+	} );' );
 }
 add_action( 'wp_enqueue_scripts', 'zpsr_scripts' );
 

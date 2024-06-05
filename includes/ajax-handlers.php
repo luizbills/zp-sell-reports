@@ -6,7 +6,7 @@
  * Ajax handler to save the ZP form data to session
  */
 function zpsr_cart_item_form_data_callback() {
-	$form_data = isset( $_POST['zp_form_data'] ) ? sanitize_text_field( $_POST['zp_form_data'] ) : '';
+	$form_data = isset( $_POST['zp_form_data'] ) ? sanitize_text_field( urldecode( $_POST['zp_form_data'] ) ) : '';
 	$data = wp_parse_args( $form_data );
 	$name = isset( $data['name'] ) ? trim( $data['name'] ) : false;
 
